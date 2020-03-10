@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Brandon Grotesque", brandon-grotesque-n7, brandon-grotesque, Helvetica, sans-serif;
+}
+
+/* Header & Navigation styling */
+
+header {
+    display: block;
+    position: fixed;
+    background-color: black;
+    height: 75px;
+    width: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.first-nav {
+    display: inline;
+}
+
+.second-nav {
+    display: block;
+    float: right;
+}
+
+/* Main Content Styling */
+
+body h3 {
+    color: #3a3a3a;
+    text-align: center;
+}
+
+.main-content {
+    display: block;
+    height: 110vh;
+}
+
+.information {
+    display: block;
+    padding:22px;
+    height: 282px;
+    width: 310px;
+}
+
+.headline {
+    display: block;
+    position: relative;
+    height: 282px;
+
+}
+
+.headline h3{
+    color: #3a3a3a;
+    text-align: left;
+}
+
+.headline h3 a:hover{
+    text-decoration: underline;
+}
+
+.learn-more {
+    color: #3569a4;
+    font-size: 12px;
+    
+}
+
+.learn-more a:hover {
+    color: #3569a4;
+    text-decoration: underline;
+}
+
+
+/* Footer Styling */
+footer {
+    display: block;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    background-color: black;
+    height: 50px;
+    width: auto;
+    padding: 20px 0;
+}
+
+span {
+    color: #666666;
+}
+
+.footer-logo {
+    float: left;
+}
+
+.copyright {
+    display: block;
+    color: dimgray;
+    float: right;
+}
+
+
+
+
+/* Navigation styling */
+
+
+
+.second-nav {
+    color: lightslategray;
+    float: right;
+    font-size: 12px;
+    float: right;
+}
+
+.second-nav a {
+    padding: 5px;
+}
+.second-nav a:hover{
+    color: lightslategray;
+    border-bottom: 2px solid lightslategray;
+}
+
+footer nav a{
+    padding: 5px;
+}
+
+footer nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
